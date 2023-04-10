@@ -10,7 +10,7 @@ export default function App() {
       </footer>
       <a
         href="https://github.com/Cute-Bologna/reactweatherappweek5.git"
-        rel="norefferrer"
+        rel="noreferrer"
         target="_blank"
       >
         open sourced on GitHub
