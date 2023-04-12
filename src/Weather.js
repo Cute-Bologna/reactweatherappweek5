@@ -47,7 +47,7 @@ export default function Weather() {
                 className="float-left"
               />
               <div className="float-left">
-                <span className="temperature">{temperature}</span>
+                <span className="temperature">{Math.round(temperature)}</span>
                 <span className="unit">&deg;C</span>
               </div>
             </div>
