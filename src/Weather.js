@@ -52,24 +52,26 @@ function handleCityChange(event) {
             <div className="col-9">
               <input
                 type="search"
-                placeholder="Enter a city.."
+                placeholder="🌸Enter a city.."
                 className="form-control"
                 autoFocus="on"
                 onChange={handleCityChange}
+              
               />
             </div>
             <div className="col-3">
               <input
                 type="submit"
-                value="search"
-                className="btn btn-primary w-100"
+                value="🔎"
+                className="btn btn-outline-light w-100"
               />
             </div>
           </div>
         </form>
         <WeatherInfo data={weatherData} />
+        
         <WeatherForecast coordinates={weatherData.coordinates} />
-       </div>
+      </div>
     );
   } else {
    search();
